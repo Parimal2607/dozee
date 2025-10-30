@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Button } from '../common';
 import Logo from '../../assets/images/Logo.svg';
 import benefitsBg from '../../assets/images/benefits-bg-img.png';
-import footerElips from '../../assets/images/footer-elips.svg';
+import footerElips from '../../assets/images/footer-elips.png';
 
 const Footer = ({ data }) => {
   const [email, setEmail] = useState('');
