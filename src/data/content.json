@@ -1,0 +1,265 @@
+{
+  "header": {
+    "logo": "Dozee",
+    "navigation": [
+      { "name": "Our Product", "link": "#product" },
+      { "name": "About Us", "link": "#about" },
+      { "name": "Resources", "link": "#resources" },
+      { "name": "Career", "link": "#career" }
+    ],
+    "ctaButton": {
+      "text": "SCHEDULE A DEMO",
+      "link": "#demo"
+    }
+  },
+  "hero": {
+    "title": "Transforming Remote Patient Monitoring",
+    "backgroundImage": "banner-bg.png"
+  },
+  "dozeeVS": {
+    "title": "Dozee VS",
+    "image": "second-section-img.png",
+    "backgroundVector": "backgound-vector-second-section.svg",
+    "description": "Dozee VS transforms beds into intelligent monitoring systems that deliver contactless, effortless, and clinically accurate data. With its remote monitoring platform and a suite of smart devices, Dozee VS provides continuous, non-intrusive insights into heart rate, respiratory rate, oxygen saturation, temperature, and blood pressure. Designed for ease, precision, and adaptability, it reduces workload, enhances patient safety, and enables timely clinical decisions, bringing critical care monitoring beyond the ICU."
+  },
+  "science": {
+    "title": "The Science Behind Dozee",
+    "image": "the-science-behind.png",
+    "features": [
+      {
+        "number": "1",
+        "title": "Contactless Proprietary Ballistocardiography",
+        "descriptions": [
+          "Uses proprietary Ballistocardiography (BCG) technology to capture micro and macro vibrations from cardiac and respiratory activity.",
+          "Sensor is placed under the mattress, no leads, cords, or wearables required.",
+          "Tracks heartbeat, respiration, posture shifts, tremors, and potential seizures without physical contact."
+        ]
+      },
+      {
+        "number": "2",
+        "title": "AI & ML Algorithms",
+        "descriptions": [
+          "These vibrations are then converted into micro movements of the body such as blood flow and breathing.",
+          "Our proprietary AI models process this data to generate clinically validated vital signs."
+        ]
+      },
+      {
+        "number": "3",
+        "title": "Continuous Vitals Monitoring",
+        "descriptions": [
+          "Continuous monitoring of heart rate, respiratory rate, and movement patterns in real-time."
+        ]
+      },
+      {
+        "number": "4",
+        "title": "Early Warning System",
+        "descriptions": [
+          "Advanced algorithms detect early signs of deterioration and alert caregivers."
+        ]
+      }
+    ]
+  },
+  "easySetup": {
+    "title": "Easy Set-up in 3 Simple Steps",
+    "image": "all-steps-group-img.png",
+    "steps": [
+      {
+        "step": "Step 1",
+        "description": "Place the Dozee sensor sheet under any existing mattress, no wires, no adhesives"
+      },
+      {
+        "step": "Step 2",
+        "description": "View vitals live on the bedside monitor or centralized nurse dashboard"
+      },
+      {
+        "step": "Step 3",
+        "description": "Get proactive notifications and documentation synced to your EMR"
+      }
+    ]
+  },
+  "features": {
+    "title": "Features",
+    "image": "features-img.png",
+    "list": [
+      {
+        "number": "1",
+        "title": "Sensor Mat",
+        "description": "Placed discreetly under the mattress, the sensor mat captures micro and macro vibrations from the body, tracking heartbeats, respiration cycles, and movements with clinical-grade precision. It contactless monitoring without disrupting patient comfort."
+      },
+      {
+        "number": "2",
+        "title": "SRPM Dashboard",
+        "description": "The Smart Remote Patient Monitoring (SRPM) Dashboard offers a centralized, real-time view of patient vitals, trends, and alerts. Designed for multi-patient monitoring, it empowers healthcare teams with actionable insights and seamless data integration."
+      },
+      {
+        "number": "3",
+        "title": "Non-invasive Blood Pressure (NiBP)",
+        "description": "Dozee's non-invasive blood pressure monitoring technology provides accurate readings without the need for traditional cuffs. It measures blood pressure continuously and comfortably, ensuring patient ease while maintaining clinical accuracy."
+      },
+      {
+        "number": "4",
+        "title": "Pulse Oximeter Watch",
+        "description": "A wearable pulse oximeter that continuously monitors oxygen saturation (SpO2) and heart rate. Lightweight and comfortable, it provides real-time data for proactive care management and early detection of respiratory issues."
+      },
+      {
+        "number": "5",
+        "title": "ECG Monitor Patch",
+        "description": "The ECG monitor patch delivers medical-grade cardiac monitoring in a compact, adhesive form. It captures continuous ECG data, enabling early detection of arrhythmias and other cardiac events with clinical accuracy."
+      },
+      {
+        "number": "6",
+        "title": "Digital Thermometer",
+        "description": "A contactless digital thermometer that provides accurate temperature readings without physical contact. Ideal for infection control, it enables continuous temperature monitoring while maintaining patient comfort and safety."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "backgroundImage": "benefits-bg-img.png",
+    "categories": [
+      {
+        "title": "Improve Clinical Outcomes",
+        "items": [
+          {
+            "text": "24/7 contactless monitoring of vitals HR®, RR®, SpO₂"
+          },
+          {
+            "text": "Improved MDS® accuracy"
+          },
+          {
+            "text": "EWS® notifications to prevent clinical decline"
+          }
+        ]
+      },
+      {
+        "title": "Boost Your Business",
+        "items": [
+          {
+            "text": "Higher PDPM® revenue through precise documentation"
+          },
+          {
+            "text": "Better QRS® ratings"
+          },
+          {
+            "text": "Eligibility for VBC® bonuses"
+          }
+        ]
+      },
+      {
+        "title": "Supercharge Staff Efficiency",
+        "items": [
+          {
+            "text": "Saves up to 1 hour per nurse per shift"
+          },
+          {
+            "text": "Automated vitals sync into EMRs® like PointClickCare and Matrix"
+          },
+          {
+            "text": "Empowers care teams with real-time insights"
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": {
+    "title": "FAQs",
+    "questions": [
+      {
+        "question": "What is Remote Patient Monitoring?",
+        "answer": "Remote Patient Monitoring (RPM) is a healthcare delivery model that uses technology to monitor patient health data outside of traditional healthcare settings. It enables healthcare providers to track vital signs, symptoms, and other health metrics in real-time, allowing for proactive care management and early intervention when needed."
+      },
+      {
+        "question": "Is remote patient monitoring CMS-approved?",
+        "answer": "Yes, Remote Patient Monitoring is CMS-approved and reimbursable. The Centers for Medicare & Medicaid Services (CMS) has established specific CPT codes for RPM services, making it a financially viable solution for healthcare providers."
+      },
+      {
+        "question": "How does a patient monitoring system work?",
+        "answer": "The Dozee patient monitoring system uses contactless sensor technology placed under the mattress to continuously track vital signs including heart rate, respiratory rate, and movement. The data is transmitted wirelessly to a secure dashboard where healthcare providers can monitor patients in real-time and receive alerts for any concerning changes."
+      },
+      {
+        "question": "Does a patient monitoring system work?",
+        "answer": "Yes, patient monitoring systems have been clinically validated and proven effective in improving patient outcomes, reducing hospital readmissions, and enabling early detection of health deterioration. Dozee's technology has been deployed across multiple healthcare facilities with demonstrated clinical efficacy."
+      },
+      {
+        "question": "How does a patient monitoring system work?",
+        "answer": "Our system continuously monitors patients through contactless sensors, processes the data using advanced AI algorithms, and presents actionable insights to healthcare providers through an intuitive dashboard and mobile application."
+      }
+    ]
+  },
+  "impact": {
+    "title": "Our Impact",
+    "stats": [
+      {
+        "value": "300+",
+        "label": "Hospitals",
+        "icon": "hospitalIcon"
+      },
+      {
+        "value": "18k+",
+        "label": "Beds Monitored",
+        "icon": "bedIcon"
+      },
+      {
+        "value": "255k+",
+        "label": "Patients Monitored",
+        "icon": "heartIcon"
+      },
+      {
+        "value": "20M+",
+        "label": "Monitoring Hours",
+        "icon": "clockIcon"
+      },
+      {
+        "value": "50k+",
+        "label": "Early Warnings",
+        "icon": "heartIcon"
+      }
+    ]
+  },
+  "downloadBrochure": {
+    "title": "Download Brochure",
+    "subtitle": "Want to know more? Access the Dozee brochure here.",
+    "backgroundImage": "download-broch-img.png",
+    "buttonText": "DOWNLOAD"
+  },
+  "footer": {
+    "demoSection": {
+      "title": "SCHEDULE DEMO",
+      "description": "Experience how Dozee transforms Skilled Nursing beds into smart, contactless monitoring units. Get a personalized demo tailored to your facility's needs and explore the impact."
+    },
+    "quickLinks": [
+      { "name": "Home Page", "link": "#" },
+      { "name": "About Us", "link": "#" },
+      { "name": "Our Solution", "link": "#" },
+      { "name": "Dozee for Home", "link": "#" },
+      { "name": "Downloads", "link": "#" },
+      { "name": "Blogs", "link": "#" },
+      { "name": "Publication", "link": "#" },
+      { "name": "Media", "link": "#" },
+      { "name": "Career", "link": "#" },
+      { "name": "Contact Us", "link": "#" }
+    ],
+    "contact": {
+      "phone": "+91 8884436933",
+      "email": "contact@dozee.io",
+      "address": "10795 Hammerly Blvd, Houston, TX 77043"
+    },
+    "social": [
+      { "name": "LinkedIn", "icon": "linkedin", "link": "#" },
+      { "name": "Facebook", "icon": "facebook", "link": "#" },
+      { "name": "Twitter", "icon": "twitter", "link": "#" },
+      { "name": "YouTube", "icon": "youtube", "link": "#" },
+      { "name": "Instagram", "icon": "instagram", "link": "#" }
+    ],
+    "bottomLinks": [
+      { "name": "Terms & Conditions", "link": "#" },
+      { "name": "Privacy Policy", "link": "#" },
+      { "name": "Terms of Use", "link": "#" }
+    ],
+    "copyright": "©Dozee Inc. 2025. All Rights Reserved.",
+    "disclaimer": "Dozee requires trained medical professionals to interpret reports and act on alerts. Both healthcare providers and patients are bound by the Terms and Conditions and Privacy Policy of Dozee."
+  }
+}
+
+
+
