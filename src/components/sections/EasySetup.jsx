@@ -8,7 +8,7 @@ const EasySetup = ({ data }) => {
       <SectionTitle>{data.title}</SectionTitle>
 
       {/* Steps Image */}
-      <div className="animate-scale-in mb-8 md:mb-12">
+      <div className="animate-scale-in">
         <img
           src={stepsImg}
           alt="Easy Setup Steps"

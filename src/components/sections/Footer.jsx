@@ -17,27 +17,17 @@ const Footer = ({ data }) => {
     <footer className="relative overflow-hidden mt-[40px]">
       {/* Benefits Background Pattern Section */}
       <div 
-        className="relative w-full"
+        className="absolute top-0 w-full h-[230px] bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${benefitsBg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          height: '230px',
-          position:'absolute',
-          top:0,
         }}
       />
 
       {/* Blue Footer Section with Ellipse Background */}
       <div 
-        className="relative"
+        className="relative mt-[82px] bg-cover bg-top bg-no-repeat"
         style={{
           backgroundImage: `url(${footerElips})`,
-          backgroundSize: 'cover, 100% 100%',
-          backgroundPosition: 'top center, center',
-          backgroundRepeat: 'no-repeat, no-repeat',
-          marginTop: '82px'
         }}
       >
         

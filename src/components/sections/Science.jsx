@@ -6,7 +6,7 @@ const Science = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div style={{ backgroundColor: '#F2F8FF' }}>
+    <div className="bg-[#F2F8FF]">
       <Section 
         background="transparent" 
         padding="lg"
@@ -14,12 +14,7 @@ const Science = ({ data }) => {
       >
       {/* Section Title - No Background */}
       <h2 
-        className="font-titillium font-semibold text-center mb-8 md:mb-12 lg:mb-16 text-3xl sm:text-4xl md:text-5xl lg:text-[64px] md:leading-[120%]"
-        style={{
-          color: '#0055D2',
-          maxWidth: '1696px',
-          margin: '0 auto 64px'
-        }}
+        className="font-titillium font-semibold text-center mb-8 md:mb-12 lg:mb-16 text-3xl sm:text-4xl md:text-5xl lg:text-[64px] md:leading-[120%] text-primary max-w-[1696px] mx-auto"
       >
         {data.title}
       </h2>
@@ -29,8 +24,7 @@ const Science = ({ data }) => {
         <div className="relative animate-slide-in-left px-4 md:px-0">
           {/* Vertical Dashed Line - Continuous through all items */}
           <div 
-            className="absolute left-[42px] sm:left-[43px] md:left-[42px] top-[26px] bottom-[44px] w-0.5 border-l-2 border-dashed z-0"
-            style={{ borderColor: '#062D77' }}
+            className="absolute left-[42px] sm:left-[43px] md:left-[42px] top-[26px] bottom-[44px] w-0.5 border-l-2 border-dashed border-[#062D77] z-0"
           />
 
           {data.features.map((feature, index) => {
@@ -62,11 +56,7 @@ const Science = ({ data }) => {
                         className="text-left w-full mb-3 md:mb-4"
                       >
                         <h3 
-                          className="font-titillium font-semibold transition-colors duration-300 hover:text-primary text-xl sm:text-2xl md:text-3xl lg:text-[36px] leading-tight md:leading-[44px]"
-                          style={{
-                            color: '#495566',
-                            maxWidth: '745px'
-                          }}
+                          className="font-titillium font-semibold transition-colors duration-300 hover:text-primary text-xl sm:text-2xl md:text-3xl lg:text-[36px] leading-tight md:leading-[44px] text-slate-grey max-w-[745px]"
                         >
                           {feature.title}
                         </h3>
@@ -80,20 +70,12 @@ const Science = ({ data }) => {
                         `}
                       >
                         <div 
-                          className="bg-white p-4 md:p-5 lg:p-6 rounded-[28px] max-w-[777px] flex flex-col gap-6 md:gap-8 lg:gap-9 items-start shadow-lg"
-                          style={{
-                            borderRadius: '28px 28px 0px 28px',
-                          }}
+                          className="bg-white p-4 md:p-5 lg:p-6 rounded-[28px_28px_0_28px] max-w-[777px] flex flex-col gap-6 md:gap-8 lg:gap-9 items-start shadow-lg"
                         >
                           {feature.descriptions.map((desc, descIndex) => (
                             <div 
                               key={descIndex}
-                              className="font-titillium flex items-start gap-2 md:gap-3 text-base sm:text-lg md:text-xl lg:text-2xl leading-tight"
-                              style={{
-                                fontWeight: '400',
-                                color: '#495566',
-                                maxWidth: '686px'
-                              }}
+                              className="font-titillium flex items-start gap-2 md:gap-3 text-base sm:text-lg md:text-xl lg:text-2xl leading-tight font-normal text-slate-grey max-w-[686px]"
                             >
                               {/* Custom SVG Checkmark */}
                               <span className="flex-shrink-0 mt-1">
@@ -120,7 +102,6 @@ const Science = ({ data }) => {
             src={scienceImg}
             alt="The Science Behind Dozee"
             className="w-full h-auto object-contain max-w-[350px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] mx-auto lg:mx-0"
-            style={{ maxWidth: '600px' }}
           />
         </div>
       </div>
